@@ -1,5 +1,5 @@
 import axios from "axios";
-// import ApiKey from "./ApiKey.json";
+import ApiKey from "./ApiKey.json";
 
 export const fetchTrends = async () => {
   const key =
