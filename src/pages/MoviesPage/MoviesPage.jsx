@@ -6,7 +6,7 @@ import s from "./MoviesPage.module.css";
 import { Audio } from "react-loader-spinner";
 import MovieList from "../../components/MovieList/MovieList";
 const MoviesPage = () => {
-  // const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("");
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
