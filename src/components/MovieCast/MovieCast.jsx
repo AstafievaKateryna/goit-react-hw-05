@@ -11,7 +11,7 @@ const MovieCast = () => {
 
   // const location = useLocation();
   // const goBack = useRef(location?.state ?? "/");
-  //   console.log(location);
+  // console.log(location);
   useEffect(() => {
     const fetchData = async () => {
       try {
