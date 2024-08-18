@@ -9,9 +9,6 @@ const MovieCast = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  // const location = useLocation();
-  // const goBack = useRef(location?.state ?? "/");
-  // console.log(location);
   useEffect(() => {
     const fetchData = async () => {
       try {
